@@ -21,7 +21,7 @@ spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
   s.name              = "reretryable"
-  s.version           = "0.1.0"
+  s.version           = "0.1.1"
   s.summary           = "Runs a code block, and retries it when an exception occurs. Simple as'at."
   s.author            = "Craig 'The Craif' Mackenzie and Niko Felger (pushed to rubygems by Brenton Fletcher)"
   s.email             = "developers@songkick.com"
