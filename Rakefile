@@ -22,10 +22,10 @@ spec = Gem::Specification.new do |s|
   # Change these as appropriate
   s.name              = "reretryable"
   s.version           = "0.1.0"
-  s.summary           = "What this thing does"
-  s.author            = "Craig 'The Craif' Mackenzie and Niko Felger"
+  s.summary           = "Runs a code block, and retries it when an exception occurs. Simple as'at."
+  s.author            = "Craig 'The Craif' Mackenzie and Niko Felger (pushed to rubygems by Brenton Fletcher)"
   s.email             = "developers@songkick.com"
-  s.homepage          = "http://www.songkick.com"
+  s.homepage          = "http://github.com/bloopletech/retryable"
 
   s.has_rdoc          = true
   s.extra_rdoc_files  = %w(README.markdown)
