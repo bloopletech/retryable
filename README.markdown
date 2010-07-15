@@ -1,3 +1,5 @@
+This fork is available as a gem under the name 'reretryable'.
+
 # Retryable#retryable
 
 ## Description

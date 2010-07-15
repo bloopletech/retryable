@@ -20,7 +20,7 @@ task :default => ["spec"]
 spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
-  s.name              = "retryable"
+  s.name              = "reretryable"
   s.version           = "0.1.0"
   s.summary           = "What this thing does"
   s.author            = "Craig 'The Craif' Mackenzie and Niko Felger"
@@ -32,7 +32,7 @@ spec = Gem::Specification.new do |s|
   s.rdoc_options      = %w(--main README.markdown)
 
   # Add any extra files to include in the gem
-  s.files             = %w(README.markdown retryable.gemspec) + Dir.glob("{spec,lib/**/*}")
+  s.files             = %w(README.markdown reretryable.gemspec) + Dir.glob("{spec,lib/**/*}")
   s.require_paths     = ["lib"]
 
   # If you want to depend on other gems, add them here, along with any
